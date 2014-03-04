@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: mojo
+# key: mojo
+# group: mojo
+# --
+package $1;
+
+use Mojo::Base '-base${2:}';
+
+$0
+
+1;

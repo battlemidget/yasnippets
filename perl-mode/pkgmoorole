@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: pkgmoorole
+# key: pkgmoorole
+# group: package moo-role
+# --
+package $1;
+
+use Moo::Role;
+
+$0
+
+1;

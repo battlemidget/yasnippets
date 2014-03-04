@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: pkg
+# key: pkg
+# group: package
+# --
+use strict;
+use warnings;
+
+package $1;
+
+$0
+
+1;

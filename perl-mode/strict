@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: strict
+# key: strict
+# group: warnings
+# --
+use strict;
+use warnings;

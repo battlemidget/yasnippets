@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: attr
+# key: attr
+# --
+has '$1' => (
+    is => 'rw${2:}',
+    isa => '$3',
+    lazy => '$4',
+    default => sub {
+        my $self = shift;
+        $0
+    }
+);

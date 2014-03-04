@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: exn
+# key: exn
+# group: class inheritance
+# --
+extends qw($1);
+$0

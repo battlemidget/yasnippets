@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: pkgmoo
+# key: pkgmoo
+# group: package moo
+# --
+package $1;
+
+use Moo;
+
+$0
+
+1;
