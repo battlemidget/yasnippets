@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: method_pod
+# key: mpod
+# --
+=method ${1:method}($2)
+
+$3
+
+=cut
+$0

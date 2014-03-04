@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: method
+# key: m
+# group: object oriented
+# --
+sub ${1:method} {
+    my ($self${2:, $3}) = @_;
+    $0
+}
