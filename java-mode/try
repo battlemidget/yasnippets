@@ -1,9 +1,11 @@
 # -*- mode: snippet -*-
-#name : try/catch
+# name: try
+# key: try
 # --
 try {
-  $0
+    $0
 }
-catch($1Exception ${2:e}) {
-  $2.printStackTrace();
+catch (${1:Throwable e}) {
+      ${2:System.out.println("Error " + e.getMessage());
+      e.printStackTrace();}
 }

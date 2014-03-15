@@ -1,4 +1,5 @@
-# -*- mode: snippet -*-
-#name : cdr
+#contributor: Xah Lee (XahLee.org)
+#name: cdr
+#key: cdr
 # --
-(cdr ${1:list})
+(cdr $0)

@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
-#name : font-family
+#contributor : rejeep <johan.rejeep@gmail.com>
+#name : font-family: ...
 # --
 font-family: $1;

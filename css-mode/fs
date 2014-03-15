@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
-#name : font-size
+#contributor : rejeep <johan.rejeep@gmail.com>
+#name : font-size: ...
 # --
-font-size: $1px;
+font-size: ${12px};

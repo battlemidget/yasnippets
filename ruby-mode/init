@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-#name : Constructor
+# name: init
+# key: init
 # --
-def initialize$1
-  $0
+def initialize(${1:args})
+    $0
 end

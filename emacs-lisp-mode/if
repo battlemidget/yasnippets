@@ -1,6 +1,5 @@
-# -*- mode: snippet -*-
-#name : if
+#contributor: Xah Lee (XahLee.org)
+#name: if
+#key: if
 # --
-(if ${1:condition}
-    $0
-  )
+(if $0)

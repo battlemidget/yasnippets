@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
-#name : clear
+#contributor : rejeep <johan.rejeep@gmail.com>
+#name : clear: ...
 # --
-clear: ${1:$$(yas/choose-value '("both" "left" "right"))};
+clear: $1;
